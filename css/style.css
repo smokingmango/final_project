@@ -15,6 +15,12 @@ p {
 	line-height:1.75em;
 }
 
+body#home .nav-home, body#minitries .nav-minitries,body#services .nav-services,body#connect .nav-connect,body#team .nav-team,body#map .nav-map,body#give .nav-give {
+background-color:#29336B;
+color:#F8F068;
+display:block;
+}
+
 #container{
 	
 	clear: both;
@@ -46,6 +52,12 @@ header{
 #wrap{
 	width: 960px;
 	margin: 0 auto;	
+}
+
+body#home .nav-home, body#minitries .nav-minitries,body#services .nav-services,body#connect .nav-connect,body#team .nav-team,body#map .nav-map,body#give .nav-give {
+background-color:#29336B;
+color:#F8F068;
+display:block;
 }
 
 nav{
@@ -80,8 +92,14 @@ nav li{
 }
 
 nav ul li a{
-	
+	color:#ffffff;
 	display:block;
+	
+}
+
+nav ul li a:hover{
+	background-color:#29336B;
+	color:#F8F068;
 	
 }
 
